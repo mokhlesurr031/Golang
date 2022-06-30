@@ -22,5 +22,6 @@ func main() {
 	// random from crypto
 	myRandomNum, _ := rand.Int(rand.Reader, big.NewInt(5))
 	fmt.Println(myRandomNum)
+	fmt.Println("This all about basic math")
 
 }
